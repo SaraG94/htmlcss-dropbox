@@ -14,12 +14,6 @@ html{
     font-weight: 300;
 }
 
-button{
-    border: none;
-    background-color: transparent;
-    padding: 8px 17px;
-}
-
 ul{
     list-style: none;
 }
@@ -36,6 +30,17 @@ ul{
 
 .row{
     display: flex;
+}
+
+/***bottoni ***/
+button{
+    border: none;
+    background-color: transparent;
+    padding: 8px 17px;
+}
+
+button.blu.short{
+    padding: 8px 61px;
 }
 
 /***header***/
@@ -110,8 +115,9 @@ h3.title-sub{
     padding-right: 50px;
 }
 
-.singol-sub{
+.col-sub{
    flex-basis: calc(100% / 3);
+   border: 1px solid lightgray;
 }
 
 /***card abbonamenti***/
@@ -133,12 +139,12 @@ p.buy{
 }
 
 p.user{
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     margin-bottom: 1px;    
 }
 
 .type-cardsub{
-    border: 1px solid lightgray;
+    border-top: 1px solid lightgray;
 }
 
 /**icone cards**/
@@ -218,3 +224,11 @@ p.user::before{
 }
 
 /**icone solo per terza card**/
+.user.azienda::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f1ad";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
