@@ -115,11 +115,17 @@ h3.title-sub{
     padding-right: 50px;
 }
 
-.col-sub{
+.col.sub{
    flex-basis: calc(100% / 3);
-   border: 1px solid lightgray;
 }
 
+.row.cardsub{
+    gap: 50px;
+}
+
+.sub{
+    border: 1px solid lightgray;
+}   
 /***card abbonamenti***/
 p.user{
     text-align: center;
@@ -134,13 +140,22 @@ p.user{
     padding: 25px 0;
 }
 
+li.type-sub>h3{
+    font-size: 18px;
+}
+
+li.time{
+    font-size: 15px;
+}
+
 p.buy{
     padding: 35px 0;
 }
 
 p.user{
     border-bottom: 1px solid lightgray;
-    margin-bottom: 1px;    
+    margin-bottom: 1px;  
+    line-height: 38px;  
 }
 
 .type-cardsub{
@@ -231,4 +246,27 @@ p.user::before{
     display: inline-block;
     padding: 5px;
     font-size: 15px;
+}
+
+/**info-aziende**/
+
+.col.contact-office{
+    flex-basis: calc(100% / 4 *3);
+    padding: 30px;
+}
+
+.col.sales{
+    flex-basis: calc(100% / 4);
+    padding: 30px;
+}
+.row.info-aziende{
+    gap: 10px;
+}
+
+.hr-card.sub{
+    margin: 50px 0;
+}
+
+.col.contact-office>h4{
+    padding: 18px 0 56px;
 }
