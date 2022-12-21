@@ -56,18 +56,37 @@ button.blu{
 }
 
 /***section saluti***/
+section.saluti{
+    background-color: #B4D0E7;
+}
 .row-1>.col-title{
     flex-basis: 100%;
+    gap: 44px;
 }
 
 .col-saluti{
-    flex-basis: calc(100% (1/3));
+    flex-basis: calc(100% /3);
 }
 
 .col-collage{
-    flex-basis: calc(100% (2/3));
+    flex-basis: calc(100% /3 *2);
 }
 
 h1.saluti-title{
     font-weight: 800;
+    font-size: 58px;
+}
+
+.saluti .row-1{
+    padding-bottom: 44px;
+}
+
+.col-saluti>button.blu{
+    margin: 33px 0;
+}
+
+.icon-cancel{
+    position: relative;
+    bottom: -126px;
+    font-size: 45px;
 }
