@@ -21,7 +21,6 @@ button{
 }
 
 ul{
-    display: flex;
     list-style: none;
 }
 
@@ -47,6 +46,7 @@ ul{
 }
 
 ul.items{
+    display: flex;
     align-items: center;
     line-height: 34px;
 }
@@ -100,10 +100,90 @@ h1.saluti-title{
 
 h3.title-sub{
     font-size: 31px;
-    padding: 50px 0;
+    padding: 25px 0;
+}
+.radio-button{
+    padding: 25px 0;
 }
 
 .radio-button>span{
     padding-right: 50px;
-    padding-bottom: 50px;
+}
+
+.singol-sub{
+   flex-basis: calc(100% / 3);
+}
+
+/***card abbonamenti***/
+p.user{
+    text-align: center;
+}
+.cardsub .type-cardsub{
+    padding: 25px 30px;
+}
+.cardsub ul>li{
+    line-height: 40px;
+}
+.cardsub ul{
+    padding: 25px 0;
+}
+
+p.buy{
+    padding: 35px 0;
+}
+
+p.user{
+    border: 1px solid lightgray;
+    margin-bottom: 1px;    
+}
+
+.type-cardsub{
+    border: 1px solid lightgray;
+}
+
+/**icone card**/
+p.user::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f007";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;    
+}
+
+.n-users::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f007";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;    
+}
+
+.space::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f07b";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;    
+}
+
+.share::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f1e0";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;    
+}
+
+.info-plan::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00cF";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    color: #0060FF;    
 }
