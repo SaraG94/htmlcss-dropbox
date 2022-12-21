@@ -141,7 +141,7 @@ p.user{
     border: 1px solid lightgray;
 }
 
-/**icone card**/
+/**icone cards**/
 p.user::before{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -181,9 +181,40 @@ p.user::before{
 .info-plan::before{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    content: "\f00cF";
+    content: "\f00c";
     display: inline-block;
     padding: 5px;
     font-size: 15px;
     color: #0060FF;    
 }
+
+/**icone solo per seconda card**/
+
+/*.user.team ,
+.n-users-3::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0c0";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;    
+}*/
+.user.team::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0c0";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.n-users-3::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0c0";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/**icone solo per terza card**/
