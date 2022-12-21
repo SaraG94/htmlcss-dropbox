@@ -8,7 +8,42 @@ img{
     max-width: 100%;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
 /*.container{
     max-width: 900px;
     margin: 0 auto;
 }*/
+
+/***header***/
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+}
+
+ul.items{
+    align-items: center;
+    line-height: 34px;
+}
+
+ul.items button{
+    padding: 8px 17px;
+}
+
+ul.items button.logo{
+    padding-left: 0px;
+}
+
+button.blu{
+    background-color: #0060FF;
+    color: white;
+}
