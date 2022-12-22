@@ -298,3 +298,17 @@ p.user::before{
 .col.contact-office>h4{
     padding: 18px 0 56px;
 }
+
+/***Dropbox partner***/
+
+.col-33{
+    flex-basis: calc(100% / 3);
+}
+
+.col-66{
+    flex-basis: calc(100% / 3 *2);
+}
+
+.row-partner{
+    gap:50px;
+}
