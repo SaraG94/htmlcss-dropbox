@@ -303,7 +303,6 @@ p.user::before{
 }
 
 /***Dropbox partner***/
-
 .col-33{
     flex-basis: calc(100% / 3);
     display: flex;
@@ -324,4 +323,8 @@ p.user::before{
     padding: 15px;
     border: 1px solid black;
     width: max-content;
+}
+/***Operazioni Business***/
+.row.operation{
+    flex-wrap: wrap;
 }
