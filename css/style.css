@@ -32,6 +32,17 @@ ul{
     display: flex;
 }
 
+/**link**/
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+a.blu{
+    background-color: #0060FF;
+    color: white;
+}
+
 /***bottoni ***/
 button{
     border: none;
@@ -47,6 +58,7 @@ button.blu.short{
 .main-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 24px 20px;
 }
 
@@ -64,6 +76,7 @@ button.blu{
     background-color: #0060FF;
     color: white;
 }
+
 
 /***section saluti***/
 section.saluti{
@@ -148,8 +161,23 @@ li.time{
     font-size: 15px;
 }
 
-p.buy{
-    padding: 35px 0;
+.buy-drop a.blu{
+    line-height: 40px;
+    width: max-content;
+    padding: 15px 30px;
+}
+
+.buy-drop a.blu.small{
+    padding: 15px 70px;
+}
+
+.buy-drop a.buy-link{
+    text-decoration: underline;
+    color: #7450F1;
+}
+
+.buy-drop li.option-buy{
+    padding-top:32px;
 }
 
 p.user{
