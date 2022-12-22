@@ -361,17 +361,22 @@ p.user::before{
 /***brand***/
 
 .col-33.brand-logo{
-    aspect-ratio: 1;
     display: flex;
     flex-wrap: wrap;
 }
 
-.col-50{
+.col-50-jc{
     flex-basis: calc(100% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
 }
 
 .invert>img{
     filter: invert(100);
+    padding: 100px 60px;
+    /*padding: 80px 40px;*/
 }
 
 /***background brand***/
