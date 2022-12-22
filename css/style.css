@@ -305,14 +305,17 @@ p.user::before{
 /***Dropbox partner***/
 .col-33{
     flex-basis: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-    padding-top: 50px;
 }
 
 .col-66{
     flex-basis: calc(100% / 3 *2);
+}
+
+.col-colum{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-top: 50px;
 }
 
 .row-partner{
@@ -336,4 +339,21 @@ p.user::before{
 
 .col-33.op-card{
     padding: 35px 25px;
+}
+
+/***costum***/
+.col.costum{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.col.costum a.costum{
+    text-decoration: underline;
+    color: #1313EF;
+    padding: 25px 0;
+}
+
+.row.suggest{
+    padding-top: 70px;
 }
