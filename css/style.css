@@ -120,7 +120,7 @@ h1.saluti-title{
 /***section abbonamenti***/
 
 h3.title-sub{
-    font-size: 31px;
+    font-size: 40px;
     padding: 25px 0;
 }
 .radio-button{
@@ -325,6 +325,15 @@ p.user::before{
     width: max-content;
 }
 /***Operazioni Business***/
+.operation-bs h3.operation-title{
+    font-size: 40px;
+    padding: 25px 0
+}
+
 .row.operation{
     flex-wrap: wrap;
+}
+
+.col-33.op-card{
+    padding: 35px 25px;
 }
