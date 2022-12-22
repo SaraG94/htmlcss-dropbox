@@ -357,3 +357,45 @@ p.user::before{
 .row.suggest{
     padding-top: 70px;
 }
+
+/***brand***/
+
+.col-33.brand-logo{
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    flex-basis: calc(100% / 2);
+}
+
+.invert>img{
+    filter: invert(100);
+}
+
+/***background brand***/
+.designit-green{
+    background-color: #A2D39B;
+}
+.arizona{
+    background-color: #61082B;
+}
+.florida{
+    background-color: #0093CE;
+}
+.toops{
+    background-color: #FF1C1C;
+}
+.bicycle{
+    background-color: #D5001F;
+}
+.hearts{
+    background-color: #B4D0E7;
+}
+.lonelyplanet{
+    background-color: #0D2481;
+}
+.clearchannel{
+    background-color: #FFD830;
+}
