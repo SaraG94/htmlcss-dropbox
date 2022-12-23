@@ -381,6 +381,20 @@ img.brand-logo{
     filter: invert(100);
 }
 
+article.brand-text{
+    background-color: #F5F5F5;
+    padding: 40px 50px;
+}
+
+figure.designit::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 90px;
+    background-color: #D3D3D6;
+    margin: 45px 0;
+}
+
 /***background brand***/
 .designit-green{
     background-color: #A2D39B;
