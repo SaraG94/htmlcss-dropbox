@@ -398,7 +398,6 @@ article.brand-text> address{
     margin-top: 50px;
     font-style: normal;
 }
-
 /***background brand***/
 .designit-green{
     background-color: #A2D39B;
@@ -443,7 +442,6 @@ a.white{
     background-color: white;
     padding: 15px 70px;
 }
-
 /***questions***/
 .line::after{
     content: '';
@@ -460,4 +458,50 @@ h3.title {
 
 span.arrow-quest{
     margin-left: -40px;
+}
+/****fine main****/
+
+/*******footer**********/
+.footer-option{
+    background-color: black;
+    padding: 50px 0;
+}
+.row.footer-menu{
+    flex-wrap: wrap;
+    color: white;
+}
+
+.col-20{
+    flex-basis: calc(100% / 5);
+}
+
+.row.footer-menu h3{
+    line-height: 45px;
+    font-size: 25px;
+}
+
+.row.footer-menu ul{
+    line-height: 37px;
+}
+
+.col-20.languege::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 120px;
+    background-color: #D3D3D6;
+    margin: 45px 0;
+}
+
+.world-lang::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f7a2";
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.world-lang{
+    color: grey;
 }
