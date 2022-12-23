@@ -367,9 +367,11 @@ p.user::before{
 img.brand-logo{
     max-width: 50%;
 }
-
-.col-50-jc{
+.col-50{
     flex-basis: calc(100% / 2);
+}
+
+.col-50.jc{
     display: flex;
     align-items: center;
     justify-content: center;
