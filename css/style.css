@@ -426,3 +426,22 @@ article.brand-text> address{
 .clearchannel{
     background-color: #FFD830;
 }
+/***Try Dropbox***/
+section.try-it{
+    background-color: #B4D0E7;
+}
+.row.try-it{
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+}
+
+.row.try-it h3{
+    font-size: 40px;
+    color: #61082B;
+}
+
+a.white{
+    background-color: white;
+    padding: 15px 70px;
+}
