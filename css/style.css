@@ -359,7 +359,6 @@ p.user::before{
 }
 
 /***brand***/
-
 .col-33.brand-logo{
     display: flex;
     flex-wrap: wrap;
@@ -380,7 +379,7 @@ img.brand-logo{
 .invert>img{
     filter: invert(100);
 }
-
+/***brand text***/
 article.brand-text{
     background-color: #F5F5F5;
     padding: 40px 50px;
@@ -393,6 +392,11 @@ figure.designit::after{
     width: 90px;
     background-color: #D3D3D6;
     margin: 45px 0;
+}
+
+article.brand-text> address{
+    margin-top: 50px;
+    font-style: normal;
 }
 
 /***background brand***/
