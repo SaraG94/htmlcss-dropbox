@@ -181,14 +181,18 @@ li.time{
     padding-top:32px;
 }
 
-p.user{
-    border-bottom: 1px solid lightgray;
-    margin-bottom: 1px;  
-    line-height: 38px;  
+.buy-drop::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 90px;
+    background-color: #D3D3D6;
+    margin-top: 45px;
 }
 
-.type-cardsub{
-    border-top: 1px solid lightgray;
+p.user{
+    border-bottom: 1px solid lightgray; 
+    line-height: 38px;  
 }
 
 /**icone cards**/
@@ -206,7 +210,7 @@ p.user::before{
     font-weight: 900;
     content: "\f007";
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
     font-size: 15px;    
 }
 
@@ -215,7 +219,7 @@ p.user::before{
     font-weight: 900;
     content: "\f07b";
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
     font-size: 15px;    
 }
 
@@ -224,7 +228,7 @@ p.user::before{
     font-weight: 900;
     content: "\f1e0";
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
     font-size: 15px;    
 }
 
@@ -233,7 +237,7 @@ p.user::before{
     font-weight: 900;
     content: "\f00c";
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
     font-size: 15px;
     color: #0060FF;    
 }
@@ -263,7 +267,7 @@ p.user::before{
     font-weight: 900;
     content: "\f0c0";
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
     font-size: 15px;
 }
 
@@ -401,6 +405,7 @@ article.brand-text> address{
 /***background brand***/
 .designit-green{
     background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 .arizona{
     background-color: #61082B;
