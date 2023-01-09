@@ -83,19 +83,28 @@ button.blu{
 /***section saluti***/
 section.saluti{
     background-color: #B4D0E7;
-    padding-bottom: 75px;
 }
+
 .row-1>.col-title{
     flex-basis: 100%;
     gap: 44px;
+}
+.col-saluti.col-colum{
+    padding-top: 0;
 }
 
 .col-saluti{
     flex-basis: calc(100% /3);
 }
 
+.icon-cancel{
+    font-size: 45px;
+    margin: auto 0;
+}
+
 .col-collage{
     flex-basis: calc(100% /3 *2);
+    margin-bottom: -70px;
 }
 
 h1.saluti-title{
@@ -108,13 +117,7 @@ h1.saluti-title{
 }
 
 .col-saluti>button.blu{
-    margin: 33px 0;
-}
-
-.icon-cancel{
-    position: relative;
-    bottom: -126px;
-    font-size: 45px;
+    width: max-content;
 }
 
 /***section abbonamenti***/
